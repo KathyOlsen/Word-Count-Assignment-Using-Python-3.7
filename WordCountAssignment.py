@@ -32,7 +32,7 @@ newls = []
 
 for word in wordls:
     word = word.strip(punctuation)
-    if word == ' ': pass
+    if word == '': pass
     else:
         newls.append(word)
         
